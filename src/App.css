@@ -1,0 +1,228 @@
+::-webkit-scrollbar{
+  display: none;
+}
+.App {
+  overflow:scroll ;
+  background-color: #0a192f;
+
+}
+
+.left-item-wrapper-parent {
+  text-align: left;
+}
+
+.right-side{
+  height: calc(100vh - 80px) !important;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.left-side{
+  height: calc(100vh - 100px) !important;
+}
+
+.image-banner{
+  max-width: 86%;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .left-side{
+    height: 100% !important
+  }
+  .image-banner{
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.social-links-wrapper{
+  position: absolute;
+  top: 41rem;
+
+}
+hr{
+  width: 45px;
+  transition: all 0.3s ease !important;
+}
+
+.social-icon {
+  font-size: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+
+.left-item-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  color: #8197BD;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.left-item-wrapper hr {
+  flex-grow: 1;
+  max-width: 30px;
+  margin: 10px 10px 10px 0px;
+  border: none;
+  border-top: 1px solid #C4D1EC;
+}
+
+
+
+h1{
+  font-size: 2.5rem !important;
+  line-height: 1 !important;
+  color: #C4D1EC !important;
+  letter-spacing: -.025em !important;
+  font-weight: bold !important;
+}
+h4{
+  font-size: 1.25rem  !important;
+  line-height: 1.75rem  !important;
+  letter-spacing: -.025em !important;
+  color: #C4D1EC !important;
+
+}
+p{
+  color: #8197BD !important;
+  line-height: 1.75rem  !important;
+  font-size: 1.15rem  !important;
+  text-align: justify  !important;
+  text-justify: inter-word  !important;
+}
+
+span{
+  color: #C4D1EC !important;
+  font-weight: bold;
+  letter-spacing: -.025em !important;
+
+
+}
+a{
+  color: #C4D1EC !important;
+  font-weight: bold;
+  text-decoration: none !important;
+  letter-spacing: -.025em !important;
+
+
+}
+a:hover{
+  color: #64FFDA !important;
+  font-weight: bold;
+  text-decoration: none !important;
+}
+
+.sidebar-item {
+  cursor: pointer;
+  padding: 10px opx;
+}
+
+.active {
+  font-weight: bold; 
+  color: #C4D1EC !important;
+ 
+
+}
+
+.active .left-item-wrapper hr{
+  max-width: 80px !important;
+  opacity: 1;
+}
+
+.active .left-item-wrapper {
+    color: #C4D1EC !important;
+}
+
+
+.experience-div {
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  transition: background-color 0.3s;
+
+}
+
+.experience-div:hover {
+  background-color: #101a31;
+}
+
+.experience-div .job-range{
+  font-size: .75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1rem;
+  letter-spacing: .025em;
+  color: #8197BD;
+
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-item {
+  border: none;
+  border-radius: 42%;
+  padding: 5px 10px;
+  margin: 5px;
+  white-space: nowrap;
+  width: fit-content !important;
+  color: #64FFDA !important;
+  background-color: #193656;
+  font-size: .855rem;
+  font-weight: 500;
+}
+
+.skills-container::after {
+  content: "";
+  flex-grow: 9999;
+}
+
+.company-name-parent {
+  display: flex !important;
+}
+
+.company-name{
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1rem;
+  letter-spacing: .025em;
+  display: flex;
+  align-items: center;
+}
+
+.company-name i {
+  padding-left: 8px;
+  font-size: 12px;
+}
+
+.experience-div:hover .company-name  {
+  display: flex;
+  align-items: flex-start;
+  transition: all 0.3s ease !important;
+}
+
+.job-role{
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1rem;
+  letter-spacing: .025em;
+  color: #596F96;
+  padding-top: 5px;
+}
+
+.job-description{
+  font-size: .875rem;
+  line-height: 1.25rem;
+  color: #8197BD;
+  font-weight: 500;
+  letter-spacing: .025em;
+
+}
