@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 import About from "./components/About";
 import Experience from "./components/Experience";
@@ -45,7 +45,7 @@ const App = () => {
     return () => {
       rightSideDiv.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  });
 
   return (
     <div className=" App container-fluid pt-5">
