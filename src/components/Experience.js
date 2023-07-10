@@ -99,6 +99,7 @@ const Experience = () => {
               href={companyUrl}
               target="_blank"
               className="row p-3 p-md-4 experience-div mb-5"
+              rel="noreferrer"
             >
               <div className="col-12 col-md-3 p-0 text-center text-lg-left job-range pb-3 pb-md-0">
                 {range}
