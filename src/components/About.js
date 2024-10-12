@@ -10,6 +10,10 @@ const About = () => {
           Fast-forward to today, and I’ve had the privilege of building software
           for{" "}
           <span>
+            <a href="https://www.dm.gov.ae/">Goverments ( Dubai & Pakistan )</a>
+          </span>
+          ,{" "}
+          <span>
             <a href="https://conveyor.finance/">a Blockchain company</a>
           </span>
           ,{" "}
@@ -24,7 +28,7 @@ const About = () => {
               an AI based online job referral company
             </a>
           </span>
-          and{" "}
+          &nbsp;and{" "}
           <span>
             <a href="https://freebusy.io/en">
               an AI based scheduling assistant
@@ -37,14 +41,17 @@ const About = () => {
         <p className="">
           In my current role at{" "}
           <span>
-            <a href="https://devsinc.com/">DEVSINC</a>
+            <a href="https://www.dm.gov.ae/">Dubai Municipality</a>
           </span>
-          , my main focus is on building products and leading projects for our
-          esteemed clients. I am committed to delivering high-quality solutions
-          and ensuring client satisfaction. Continuous learning and innovation
-          are integral parts of my professional journey
+          , I lead the development of scalable web applications and manage key
+          projects focused on enhancing public services. I am dedicated to
+          delivering innovative, high-quality solutions that drive efficiency
+          and improve user experience. Continuous learning, staying current with
+          emerging technologies, and fostering collaboration are central to my
+          approach in ensuring project success and client satisfaction.
         </p>
       </div>
+
       <div className="col-12">
         <p className="">
           When I'm not at the computer, I'm usually engaged in various

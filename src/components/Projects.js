@@ -3,6 +3,27 @@ import React from "react";
 const Projects = () => {
   const Projects = [
     {
+      imageName: "DM",
+      projectName: "Dubai Municipality",
+      projectURL: "https://www.dm.gov.ae/",
+      skills: [
+        "React",
+        "JavaScript",
+        "TypeScript",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "AWS",
+        "SQL",
+        "REST APIs",
+        "CI/CD",
+        "AngularJS",
+      ],
+      Description:
+        "At Dubai Municipality, I worked on four major projects out of a total of 50, including their official website, Investment Opportunities platform, People Management System (PMS), and Vethub Services. Each project focused on improving public service efficiency, user experience, and operational management, leveraging modern technologies and best practices.",
+    },
+
+    {
       imageName: "KUDO",
       projectName: "KUDO",
       projectURL: "https://kudoway.com/",

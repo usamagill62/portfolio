@@ -3,6 +3,35 @@ import React from "react";
 const Experience = () => {
   const experienceData = [
     {
+      range: "2024 - Present",
+      role: "Senior Software Engineer",
+      companyName: "Dubai Municipality",
+      companyUrl: "https://www.dm.gov.ae/",
+      Description:
+        "At Dubai Municipality, I lead the development of scalable web applications to enhance public services. I collaborate with cross-functional teams to deliver innovative solutions, focusing on efficiency and user experience. I provide technical guidance, mentor junior developers, and ensure project success through proactive problem-solving and adherence to best practices. Additionally, I play a key role in automating testing procedures to maintain code quality and streamline deployments.",
+      skills: [
+        "React",
+        "JavaScript",
+        "TypeScript",
+        "Node",
+        "Express",
+        "MongoDB",
+        "Redux",
+        "AWS CLI",
+        "Amazon S3",
+        "AWS IAM",
+        "AWS CloudFormation",
+        "AWS Lambda",
+        "REST APIs",
+        "React Native",
+        "AngularJS",
+        "SQL",
+        "CI/CD",
+        "Git",
+      ],
+    },
+
+    {
       range: "2022 - Present",
       role: "Senior Software Engineer",
       companyName: "DEVSINC",
