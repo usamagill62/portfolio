@@ -34,7 +34,7 @@ const About = () => {
               an AI based scheduling assistant
             </a>
           </span>
-          .
+          &nbsp;etc.
         </p>
       </div>
       <div className="col-12">

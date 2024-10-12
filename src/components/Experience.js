@@ -32,7 +32,7 @@ const Experience = () => {
     },
 
     {
-      range: "2022 - Present",
+      range: "2022 - 2023",
       role: "Senior Software Engineer",
       companyName: "DEVSINC",
       companyUrl: "https://devsinc.com/",
